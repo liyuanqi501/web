@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web07</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin:0px auto;
+        }
+        /*header*/
+        .header-wrap{
+            width: 100%;
+            background-color: rgb(244,244,244);
+            height: 30px;
+        }
+        .header{
+            width: 1200px;
+            height: 30px;
+            margin:0px auto;
+            font-size: 14px;
+        }
+        .header a{
+            text-decoration: none;
+            display: inline-block;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            color: black;
+        }
+        .header2{
+            float: right;
+        }
+        .header img{
+            margin-right:2px;
+        }
+        #float{
+            margin:0px 2px;
+        }
+        .header div{
+            display: inline-block;
+        }
+        .header1{
+            float: left;
+        }
+        .header2{
+            float: right;
+        }
+        /*first*/
+        .first-wrap{
+            width: 100%;
+            height: 160px;
+            border-bottom: 2px solid rgb(244,3,4);
+        }
+        .first{
+            width: 1200px;
+            height: 160px;
+            margin:0px auto;
+        }
+        .firsttop{
+            width: 1200px;
+            height: 110px;
+            text-align: center;
+        }
+        .firsttop img{
+            float: left;
+            margin-top: 25px;
+            margin-right: 200px;
+        }
+        .firsttop form{
+            float: left;
+            margin-top: 40px;
+            margin-right: 100px;
+        }
+        .firsttop div{
+            display: inline-block;
+            width: 160px;
+            height: 40px;
+            margin-top: 15px;
+            text-align: center;
+            line-height: 40px;
+            margin-left: 20px;
+        }
+        .first input{
+            line-height: 40px;
+            display:inline-block;
+        }
+        .kuangkuang{
+            width: 400px;
+            height: 38px;
+            border: 2px solid rgb(248, 56, 56); 
+        }
+        .sousuo{
+            height: 43px;
+            width: 95px;
+            margin-left: -6px;
+            border: 2px solid rgb(248, 56, 56); 
+            background-color: rgb(248, 56, 56);
+        }
+        .firstnav{
+             width: 1200px;
+             height: 50px;
+        }
+        .firstnav li{
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            display: inline-block;
+            line-height: 50px;
+        }
+        .firstnav li:hover{
+            background-color: rgb(253, 3, 4);
+            border-radius: 10px;
+            color: rgb(255,255,255);       
+        }
+        /*second*/
+        .second-wrap{
+            width: 100%;
+        }
+        .second{
+            width: 1200px;
+            height: 650px;
+            margin:0 auto;
+        }
+        .second-one{
+            width: 1200px;
+            height: 70px;
+            line-height: 70px;
+        }
+        .second-one a{
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+        .second-two{
+            height: 580px;
+            width: 1200px;
+        }
+        .t-left{
+            width: 250px;
+            height: 580px;
+            float: left;
+        }
+        .div1{
+            height: 50px;
+            width: 250px;
+            line-height: 50px;
+            text-align: 50px;
+        }
+        .div2{
+            width: 250px;
+            height: 530px;
+        }
+        .div2 a{
+            display: block;
+            margin-top: 50px;
+            margin-left: 70px;
+            text-decoration: none;
+            color: black;
+        }
+        .div1 img{
+            margin-left: 50px;
+        }
+        .div1 span{
+            width: 100px;
+        }
+        .t-right{
+            height: 580px;
+            width: 950px;
+            float: left;
+        }
+        .t-right div{
+            float: left;
+            width: 220px;
+            height: 260px;
+            margin:5px;
+            text-align: center;
+        }
+        /*last*/
+        .last-wrap{
+            width: 100%;
+            height: 250px;
+            background-color: rgb(46,46,46);
+        }
+        .last{
+            margin:0 auto;
+            width: 1200px;
+            height: 150px;
+            text-align: center;
+            border-bottom:1px solid rgb(69,69,69);
+        }
+        .last ul{
+            width: 200px;
+            height:150px;
+            display: inline-block;
+        }
+        .last-wrap li{
+            list-style-type: none;
+            line-height: 30px;
+            text-align: left;
+            margin-top: 5px;
+            margin-left: 50px;
+            height: 30px;
+            line-height: 30px;
+            color: rgb(241,241,241);
+        }
+        .last-wrap a{
+            color: rgb(200,200,200);
+            text-decoration: none;
+        }
+        .last-bottom a{
+            color: rgb(101,101,101);
+        }
+        .last-bottom{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .bottom-last{
+            color: rgb(101,101,101);
+             text-align: center;
+             margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-wrap">
+        <div class="header">
+            <div class="header1">
+             <a href="#">我的收藏</a>
+                <a href="#">E族之家手机版</a>
+                <img src="雪梨作业/qq.jpg">
+                <span>328203328</span>
+            </div>
+            <div class="header2">
+                <a href="#" id="float">扫码加入</a>
+                <span id="float">欢迎来到E族之家</span>
+                <a href="#" id="float">注册|请登录</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="first-wrap">
+        <div class="first">
+            <div class="firsttop">
+                <img src="雪梨作业/one.jpg">
+                <form>
+                    <input type="text" name="adad" value="请输入关键字" class="kuangkuang">
+                    <input type="submit" name="sub" value="搜索" class="sousuo">
+                </form>
+                <div>
+                    <img src="雪梨作业/car.jpg">
+                </div>
+            </div>
+            <div class="firstnav">
+                <ul>
+                    <li>首页</li>
+                    <li>E族生活</li>
+                    <li>E族服务</li>
+                    <li>E族爱心</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="second-wrap">
+        <div class="second">
+            <div class="second-one">
+                <a href="#">当前位置</a>:<a href="#">E族爱心</a>><a href="#">食品</a>
+            </div>
+            <div class="second-two">
+                <div class="t-left">
+                    <div class="div1">
+                        <img src="雪梨作业/00.jpg">
+                        <span>全部分类</span>
+                    </div>
+                    <div class="div2">
+                        <a href="#">>食品</a>
+                        <a href="#">>生活用品</a>
+                    </div>
+                </div>
+                <div class="t-right">
+                    <div><img src="雪梨作业/3.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/1.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/4.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/2.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/3.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/1.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/4.jpg" alt="辣椒"></div>
+                    <div><img src="雪梨作业/2.jpg" alt="辣椒"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last-wrap">
+        <div class="last">
+            <ul>
+                <li><a href="#">新手上路</a></li>
+                <li><a href="#">售后流程</a></li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">订购方式</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">配送方式</a></li>
+                <li><a href="#">货到付款区域</a></li>
+                <li><a href="#">配送支付查询</a></li>
+                <li><a href="#">支付方式说明</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">购物指南</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">订购流程</a></li>
+                <li><a href="#">注册新会员</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">退换货原</a></li>
+                <li><a href="#">售后服务保证</a></li>
+                <li><a href="#">换货流程</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">网络故障报告</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">投诉与建议</a></li>
+            </ul>
+        </div>
+        <div class="last-bottom">
+            <a href="#">E族生活</a>|
+            <a href="#">居家维护保养</a>|
+            <a href="#">住宿优惠信息</a>|
+            <a href="#">出行接送</a>|
+            <a href="#">E族活动</a>|
+            <a href="#">E族爱心</a>|
+            <a href="#">积分商城</a>
+        </div>
+        <div class="bottom-last">
+            <p>@2017-2018 E族之家版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+        </div>
+    </div>
+</body>
+
+</html>
